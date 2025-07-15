@@ -1,0 +1,110 @@
+.skills {
+  padding: 40px 20px;
+  background-color: #f0f2f5;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.skills h2 {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+  color: #000204;
+  margin-left: 0px;
+  
+}
+
+/* Hard Skills and Soft Skills main boxes */
+.softskil {
+  background-color: #ffffff;
+  border-radius: 12px;
+  padding: 15px;
+  margin-bottom: 70px;
+  margin-left: 95px;
+  margin-right: 95px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.prgrmskills p,
+.web p,
+.db p,
+.tools p {
+  font-weight: 600;
+  font-size: 1.1rem;
+  color: #11181f;
+  margin-bottom: 10px;
+  
+}
+
+/* Skill item styling */
+.prgrmskills ul,
+.web ul,
+.db ul,
+.tools ul{
+  
+  padding-left: 0;
+  margin-bottom: 8px;
+  text-align: left;
+  margin-left: 250px;
+  
+}
+
+
+
+
+.soft ul {
+
+  margin-left: 210px;
+  border-radius: 8px;
+  text-align: left;
+  font-size: 1.2rem;
+  margin-right: 650px;
+  margin-bottom: 30px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+/* Grid layout for inner hard skills */
+.hardskills {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 2 columns */
+  gap: 15px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  padding: 15px;
+  margin-bottom: 30px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  margin-left: 100px;
+  margin-right: 100px;
+}
+.softskil h3{
+ 
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+  text-align: left;
+  margin-left: 208px;
+
+}
+/* Ensure h3 inside .hardskills spans full width */
+.hardskills h3 {
+  grid-column: span 2;
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+  text-align: left;
+  margin-left: 208px;
+}
+
+/* Inner skill boxes */
+.prgrmskills,
+.web,
+.db,
+.tools {
+  background-color: #f9f9f9;
+  padding: 15px 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
+.skills {
+  padding: 20px 15px;
+}
+
+.hardskills {
+  gap: 12px;
+  padding: 16px;
+}
