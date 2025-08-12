@@ -3,6 +3,7 @@ import './contact.css'
 export default function Contact() {
   return (
     <>
+    
     <h1>Contact Me</h1>
     <div className='contactt'>
       
@@ -36,10 +37,11 @@ export default function Contact() {
         </form>
 
       </div>
+     
       <div className="mycontact">
         <h3>Get in touch</h3>
         <p>Phone : 9353038876</p>
-        <p>Email : hithashree1384</p>
+        <p>Email : hithashree1384@gmail.com</p>
         <p>Linkedin: <a href="https://linkedin.com/in/hithashree-a-m" target="_blank" rel="noreferrer" >Linkedin.com/in/hithashree-a-m</a></p>
         <p>Github: <a href="https://github.com/Hithashree1384" target="_blank" rel="noreferrer">github.com/in/hithashree1384</a></p>
     

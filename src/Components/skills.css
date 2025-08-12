@@ -1,110 +1,89 @@
 .skills {
-  padding: 40px 20px;
-  background-color: #f0f2f5;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 2rem;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
 }
 
 .skills h2 {
+  margin-left: 20px;
   font-size: 2.5rem;
-  margin-bottom: 30px;
-  color: #000204;
-  margin-left: 0px;
-  
+  margin-bottom: 2rem;
+  color: #1a1a1a;
 }
 
-/* Hard Skills and Soft Skills main boxes */
-.softskil {
-  background-color: #ffffff;
-  border-radius: 12px;
-  padding: 15px;
-  margin-bottom: 70px;
-  margin-left: 95px;
-  margin-right: 95px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+.section-title {
+  font-size: 1.5rem;
+  margin: 1.5rem 0 1rem;
+  color: #053768;
+  border-left: 5px solid #054584;
+  padding-left: 10px;
 }
 
-.prgrmskills p,
-.web p,
-.db p,
-.tools p {
-  font-weight: 600;
-  font-size: 1.1rem;
-  color: #11181f;
-  margin-bottom: 10px;
-  
-}
-
-/* Skill item styling */
-.prgrmskills ul,
-.web ul,
-.db ul,
-.tools ul{
-  
-  padding-left: 0;
-  margin-bottom: 8px;
-  text-align: left;
-  margin-left: 250px;
-  
-}
-
-
-
-
-.soft ul {
-
-  margin-left: 210px;
-  border-radius: 8px;
-  text-align: left;
-  font-size: 1.2rem;
-  margin-right: 650px;
-  margin-bottom: 30px;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
-}
-/* Grid layout for inner hard skills */
-.hardskills {
+.skill-grid {
   display: grid;
-  grid-template-columns: repeat(2, 1fr); /* 2 columns */
-  gap: 15px;
-  background-color: #ffffff;
-  border-radius: 12px;
-  padding: 15px;
-  margin-bottom: 30px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
-  margin-left: 100px;
-  margin-right: 100px;
-}
-.softskil h3{
- 
-  font-size: 1.8rem;
-  margin-bottom: 10px;
-  text-align: left;
-  margin-left: 208px;
-
-}
-/* Ensure h3 inside .hardskills spans full width */
-.hardskills h3 {
-  grid-column: span 2;
-  font-size: 1.8rem;
-  margin-bottom: 10px;
-  text-align: left;
-  margin-left: 208px;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 1.5rem;
 }
 
-/* Inner skill boxes */
-.prgrmskills,
-.web,
-.db,
-.tools {
-  background-color: #f9f9f9;
-  padding: 15px 20px;
+.skill-card {
+  background: #fff;
   border-radius: 10px;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
-}
-.skills {
-  padding: 20px 15px;
+  padding: 1.2rem;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  justify-content: left;
 }
 
-.hardskills {
-  gap: 12px;
-  padding: 16px;
+.skill-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.12);
+}
+
+.skill-card p {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  color: #333;
+}
+
+.skill-card ul {
+  list-style: none;
+  padding: 0;
+  margin-left: 50px;
+  text-align: left;
+
+}
+
+.skill-card li {
+  padding: 0.3rem 0;
+  font-size: 0.95rem;
+  color: #555;
+}
+
+.skill-card li::before {
+  content: "▹";
+  color: #1976d2;
+  margin-right: 6px;
+}
+
+.soft li::before {
+  content: "★";
+  color: orange;
+}
+
+.skill-card.soft ul {
+  display: flex;
+  flex-wrap: wrap; /* Wraps to next line on small screens */
+  gap: 15px; /* Space between items */
+  list-style: none; /* Remove bullet points */
+  padding: 0;
+  margin: 0;
+  justify-content: flex-start; /* Left align */
+}
+
+.skill-card.soft li {
+  background: #f5f5f5; /* Optional badge background */
+  padding: 8px 12px;
+  border-radius: 6px;
 }

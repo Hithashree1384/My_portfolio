@@ -1,12 +1,13 @@
 import React from 'react'
 import myprofile from '../assets/mypic.jpg'
-import Navbar from './Navbar'
+import resume from './nresume.pdf';
 import './Home.css'
+
 
 export default function Home() {
   return (
     <>
-    <Navbar/>
+    
     <div className='home'>
       <div className="intro">
         <h4>Helloo..I'm</h4>
@@ -20,7 +21,8 @@ export default function Home() {
         <img src={myprofile} className='photo' alt="Myphoto"/>
     </div>
      </div>
-     <a href='/resume.pdf' className='resume'>Download Resume</a>
+     <a href={resume} className='resume' target="_blank" rel="noopener noreferrer"
+>Resume</a>
     </>
   )
 }

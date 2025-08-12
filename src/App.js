@@ -10,12 +10,15 @@ import Projects from './Components/Projects';
 import About from './Components/About';
 import Home from './Components/Home';
 import Skills from './Components/Skills';
+import Navbar from './Components/Navbar';
+import Footer from './Components/Footer';
 
 
 function App() {
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
     <div className="App">
+      <Navbar/>
     <Routes>
       <Route path="/" element={<Home/>}/>
       <Route path="/about" element={<About/>}/>
@@ -23,9 +26,7 @@ function App() {
       <Route path="/Projects" element={<Projects/>}/>
       <Route path="/Contact" element={<Contact/>}/>
     </Routes>
-
-
-
+    <Footer/>
     </div>
     </Router>
   );
