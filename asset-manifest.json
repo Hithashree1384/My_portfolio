@@ -1,20 +1,21 @@
 {
   "files": {
-    "main.css": "/My_portfolio/static/css/main.4851a863.css",
-    "main.js": "/My_portfolio/static/js/main.6ae38e20.js",
+    "main.css": "/My_portfolio/static/css/main.7e35bdb4.css",
+    "main.js": "/My_portfolio/static/js/main.c28d8890.js",
     "static/js/453.1407b060.chunk.js": "/My_portfolio/static/js/453.1407b060.chunk.js",
     "static/media/mypic.jpg": "/My_portfolio/static/media/mypic.b0d51a9a3e08c45149ab.jpg",
     "static/media/travel-website.webp": "/My_portfolio/static/media/travel-website.1570f582754e2643bda0.webp",
     "static/media/gas.webp": "/My_portfolio/static/media/gas.6e8704796d1298efdac3.webp",
+    "static/media/nresume.pdf": "/My_portfolio/static/media/nresume.c1dcebc026c7442fa33e.pdf",
     "static/media/puzzle.png": "/My_portfolio/static/media/puzzle.5e3ba16ae7cc11a69d37.png",
     "static/media/Weather-app.webp": "/My_portfolio/static/media/Weather-app.ad3b7fdca2ed50cfe11d.webp",
     "index.html": "/My_portfolio/index.html",
-    "main.4851a863.css.map": "/My_portfolio/static/css/main.4851a863.css.map",
-    "main.6ae38e20.js.map": "/My_portfolio/static/js/main.6ae38e20.js.map",
+    "main.7e35bdb4.css.map": "/My_portfolio/static/css/main.7e35bdb4.css.map",
+    "main.c28d8890.js.map": "/My_portfolio/static/js/main.c28d8890.js.map",
     "453.1407b060.chunk.js.map": "/My_portfolio/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4851a863.css",
-    "static/js/main.6ae38e20.js"
+    "static/css/main.7e35bdb4.css",
+    "static/js/main.c28d8890.js"
   ]
 }
