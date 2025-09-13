@@ -1,21 +1,23 @@
 {
   "files": {
-    "main.css": "/My_portfolio/static/css/main.7e35bdb4.css",
-    "main.js": "/My_portfolio/static/js/main.c28d8890.js",
+    "main.css": "/My_portfolio/static/css/main.2587de62.css",
+    "main.js": "/My_portfolio/static/js/main.48b14049.js",
     "static/js/453.1407b060.chunk.js": "/My_portfolio/static/js/453.1407b060.chunk.js",
     "static/media/mypic.jpg": "/My_portfolio/static/media/mypic.b0d51a9a3e08c45149ab.jpg",
+    "static/media/ai-generator.png": "/My_portfolio/static/media/ai-generator.8e2d29c5936e41d6198b.png",
     "static/media/travel-website.webp": "/My_portfolio/static/media/travel-website.1570f582754e2643bda0.webp",
     "static/media/gas.webp": "/My_portfolio/static/media/gas.6e8704796d1298efdac3.webp",
-    "static/media/nresume.pdf": "/My_portfolio/static/media/nresume.c1dcebc026c7442fa33e.pdf",
+    "static/media/nresume.pdf": "/My_portfolio/static/media/nresume.922e321823abf142671f.pdf",
     "static/media/puzzle.png": "/My_portfolio/static/media/puzzle.5e3ba16ae7cc11a69d37.png",
+    "static/media/ecommerce.webp": "/My_portfolio/static/media/ecommerce.95ecfb76a43392f80fe8.webp",
     "static/media/Weather-app.webp": "/My_portfolio/static/media/Weather-app.ad3b7fdca2ed50cfe11d.webp",
     "index.html": "/My_portfolio/index.html",
-    "main.7e35bdb4.css.map": "/My_portfolio/static/css/main.7e35bdb4.css.map",
-    "main.c28d8890.js.map": "/My_portfolio/static/js/main.c28d8890.js.map",
+    "main.2587de62.css.map": "/My_portfolio/static/css/main.2587de62.css.map",
+    "main.48b14049.js.map": "/My_portfolio/static/js/main.48b14049.js.map",
     "453.1407b060.chunk.js.map": "/My_portfolio/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7e35bdb4.css",
-    "static/js/main.c28d8890.js"
+    "static/css/main.2587de62.css",
+    "static/js/main.48b14049.js"
   ]
 }
