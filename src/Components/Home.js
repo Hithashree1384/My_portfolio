@@ -1,6 +1,6 @@
 import React from 'react'
 import myprofile from '../assets/mypic.jpg'
-import resume from './nresume.pdf';
+
 import './Home.css'
 
 
@@ -23,7 +23,7 @@ export default function Home() {
         <img src={myprofile} className='photo' alt="Myphoto"/>
     </div>
      </div>
-     <a href={resume} className='resume' target="_blank" rel="noopener noreferrer"
+     <a href={`${process.env.PUBLIC_URL}/nresume.pdf`}  className='resume' target="_blank" rel="noopener noreferrer"
 >Resume</a>
     </>
   )
