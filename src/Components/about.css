@@ -1,68 +1,94 @@
+/* About Section */
+
 .about {
-  max-width: 1100px;
+  max-width: 1000px;
   margin: auto;
-  padding: 50px 20px;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  line-height: 1.6;
-  color: #333;
+  padding: 60px 30px;
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.8;
+  color: #d8dded;
+  margin-left: 200px;
 }
 
+/* Title */
 .about-title h1 {
   text-align: center;
-  margin-left: 170px;
-  font-size: 2.8rem;
-  font-weight: bold;
+
+  font-size: 2.6rem;
+  font-weight: 700;
   margin-bottom: 30px;
-  color: #1e3c72;
+  color: #efeff0; /* accent color */
+  position: relative;
+
+  border-bottom: 2px solid #edeef0;
+  display: inline-block;
+
 }
 
+.about-title h1::after {
+  content: '';
+  display: block;
+  width: 60px;
+  height: 3px;
+  margin: 10px auto 0 auto;
+  border-radius: 2px;
+}
+
+/* About paragraph */
 .about-me p {
   font-size: 1.1rem;
-  margin-bottom: 20px;
+  margin-bottom: 25px;
   text-align: justify;
-  margin-left: 150px;
+  margin-left: 150px; /* kept as per your style */
+  color: #e6f1ff;
 }
 
+/* Education + Certifications */
 .education {
-  margin-top: 40px;
+  margin-top: 50px;
 }
 
 .education h2 {
   font-size: 1.8rem;
-  margin-bottom: 15px;
-  color: #1e3c72;
-  border-left: 5px solid #040d4a;
-  padding-left: 10px;
-  margin-left: 150px;
+  margin-bottom: 20px;
+  color: #e3ebed;
+
 }
 
 .education p {
-  background: #f8f9fa;
-  padding: 15px;
-  border-radius: 10px;
-  margin-bottom: 15px;
+  background: rgba(17, 34, 64, 0.8);
+  padding: 18px;
+  border-radius: 12px;
+  margin-bottom: 18px;
   font-size: 1rem;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+  color: #d9dde8;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.education p br {
-  line-height: 2;
+.education p:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 25px rgba(82, 188, 224, 0.5);
 }
 
 /* Special style for certifications */
 .education p:last-of-type {
-  border-left: 5px solid #0c62ad;
-  background: linear-gradient(to right, #fff, #c4c4c7);
+  border-left: 5px solid #52bce0;
+  background: linear-gradient(to right, rgba(17, 34, 64, 0.9), rgba(82, 188, 224, 0.15));
 }
 
+/* Responsive */
 @media (max-width: 768px) {
   .about-title h1 {
     font-size: 2.2rem;
+    margin-left: 0;
   }
   .education h2 {
     font-size: 1.5rem;
+    margin-left: 0;
   }
   .about-me p {
     font-size: 1rem;
+    margin-left: 0;
   }
 }

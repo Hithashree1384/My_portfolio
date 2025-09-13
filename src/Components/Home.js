@@ -9,9 +9,11 @@ export default function Home() {
     <>
     
     <div className='home'>
+      
       <div className="intro">
         <h4>Helloo..I'm</h4>
         <h1 className='name'>Hithashree A M</h1>
+
         <p className='desc'> Computer Science Engineering student with<br/>skills in Java and web
  development, seeking an <br/> opportunity to apply my knowledge and<br/>
  contribute to software development projects</p>
